@@ -31,13 +31,13 @@ gabagool:
   min_profit_margin: 0.03
 
   # -------------------------------------------------------------------------
-  # $1000 live deployment — g22-matched config
-  # 6 markets (BTC+ETH × 5m+15m+1h) × $167 each = $1000 total
+  # $100 INITIAL LIVE DEPLOYMENT TEST
+  # 6 markets (BTC+ETH × 5m+15m+1h) × $16.66 each = $100 total
   # -------------------------------------------------------------------------
-  max_position_per_market: 167.0
-  max_total_exposure: 1000.0
+  max_position_per_market: 16.66
+  max_total_exposure: 100.0
   max_concurrent_arbitrages: 6
-  max_unpaired_exposure: 50.0
+  max_unpaired_exposure: 10.0
   snipe_shares: 10          # 10 × $0.85 = $8.50 max per snipe (matches g22 $9 cap)
 
   # Time limits
